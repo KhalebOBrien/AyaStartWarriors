@@ -12,7 +12,8 @@ document.onreadystatechange = () => {
         response.data.results.map(item => {
           content += `<div class="content"><img src="./imgs/placeholder.png" class="image"><span class="name">${item.name}</span></div>`
         })
-    
+        
+        document.getElementById('loading').style = 'display:none'
         document.getElementById('main').innerHTML += content
         return { code: 200 }
       } catch (error) {
