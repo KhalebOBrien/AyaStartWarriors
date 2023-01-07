@@ -104,7 +104,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #262626; */
 }
 
 .content {
@@ -115,11 +114,11 @@ main {
   width: 22em;
   margin: 1.4rem;
   border-radius: 20px;
-  cursor: pointer;
 }
 
-.content .name {
+.content .name, .content .data-box {
   padding-left: 2em;
+  cursor: pointer;
 }
 
 .image {
