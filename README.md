@@ -1,4 +1,6 @@
 # AyaStartWarriors
+UI Design: https://www.figma.com/file/ESu3oZV7pKM4dZF8esKpA0/AyaStarWarriors?t=1aC6B7SccU1EHL8O-1
+Hosted Link: https://ayastarwarriors.onrender.com
 
 ### Problem Description:
 You are to create a SPA (single-page application) using HTML, CSS, and JavaScript. It shows all characters from a star wars API (https://swapi.dev/api/people). Read the documentation and implement it as follows.
