@@ -11,7 +11,7 @@ You are to create a SPA (single-page application) using HTML, CSS, and JavaScrip
 
 2. Make an HTTP request to populate your frontend application using the API
     - Display a list with the names of each person from the API request. [done]
-    - On Clicking any name, display the details of that user on the screen, with name, gender, and height only.
+    - On Clicking any name, display the details of that user on the screen, with name, gender, and height only. [done]
 
 3. All implementations should be done using es6. [done]
 
@@ -22,3 +22,11 @@ You are to create a SPA (single-page application) using HTML, CSS, and JavaScrip
 The submission link will be shared on slack.
 
 Dateline: 8th January, 2023
+
+
+#### TODO
+1. Work on responsiveness.
+2. Pagination.
+3. Fix: hide the already shown user data when clicking on another one or clicking anywhere on the document.
+4. Implement search box functionality.
+5. Implement the filter search functionality (on clicking planets, films...etc should fetch data for such selection).
