@@ -10,7 +10,7 @@ document.onreadystatechange = () => {
         console.log(response.data.results);
         let content = "";
         response.data.results.map(item => {
-          content += `<div class="content"><img src="./imgs/placeholder.png" class="image"><span class="name">${item.name}</span></div>`
+          content += `<div class="content"><div class="image-holder"><img src="./imgs/placeholder.png" class="image"></div><div class="name">${item.name}</div></div>`
         })
         
         document.getElementById('loading').style = 'display:none'

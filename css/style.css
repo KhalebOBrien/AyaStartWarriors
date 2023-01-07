@@ -108,12 +108,14 @@ main {
 }
 
 .content {
+  display: flex;
+  align-items: center;
   border: 1px solid #1A308F;
   padding: 1rem;
   width: 22em;
   margin: 1.4rem;
   border-radius: 20px;
-  text-align: center;
+  cursor: pointer;
 }
 
 .content .name {
