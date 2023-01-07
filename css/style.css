@@ -122,6 +122,10 @@ main {
   padding-left: 2em;
 }
 
+.image {
+  border-radius: 20px;
+}
+
 footer {
   width: 100vw;
   height: 10em;
